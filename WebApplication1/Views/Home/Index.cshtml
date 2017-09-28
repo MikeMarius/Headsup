@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Heads Up";
+}
+
+<span class="customer-name">Hej Karin</span> 
+<img src="~/images/customerNow.png" class="customer-image" />
+<p class="clearfix">Vi har følgende foreslag til dig...</p>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/b1.jpg" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                @*<p>
+                    HEP
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
+                        Vælg
+                    </a>
+                </p>*@
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/b2.jpg" alt="Visual Studio" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                @*<p>
+                    Super lækker frits
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
+                        Vælg
+                    </a>
+                </p>*@
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/b3.jpg" alt="Package Management" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                @*<p>
+                    Total HEP
+                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
+                        Vælg
+                    </a>
+                </p>*@
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Forrige</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Næste</span>
+    </a>
+</div>
+<div class="row treatment">
+    <p><span>Behandling: Klip og farve</span>
+        <button class="btn btn-primary">Andet</button>
+    </p>    
+</div>
+<div class="row">
+    <div><strong>28 september 2017</strong></div>
+    <table class="time-table">
+        <tr>
+            <td class="time">14:00-16:00</td>
+            <td><button class="btn btn-success">Book</button></td>
+        </tr>
+        <tr>
+            <td>15:00-17:00</td>
+            <td><button class="btn btn-success">Book</button></td>
+        </tr>
+    </table>
+</div>
+
+<div class="row">
+    <div><strong>29 september 2017</strong></div>
+    <table class="time-table">
+        <tr>
+            <td class="time">14:00-16:00</td>
+            <td><button class="btn btn-success">Book</button></td>
+        </tr>
+        <tr>
+            <td>15:00-17:00</td>
+            <td><button class="btn btn-success">Book</button></td>
+        </tr>
+    </table>
+</div>
+
+<div class="row">
+    <button class="btn btn-primary">Anden tid</button>
+</div>
+
+    
